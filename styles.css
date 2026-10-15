@@ -1,0 +1,230 @@
+/* ======================================
+   LEARNING CSS FLEXBOX
+   Write your Flexbox properties in these rules.
+   ====================================== */
+
+/* Demo 1: Turn on Flexbox on the parent. */
+.demo-one {
+  
+}
+
+/* Demo 2: Change a row into a column. */
+.demo-two {
+  
+}
+
+/* Demo 3: Arrange items on the main axis. */
+.demo-three {
+  
+}
+
+/* Demo 4: Center items on both axes. */
+.demo-four {
+  
+}
+
+/* Demo 5: Wrap items and add spacing. */
+.demo-five {
+  
+}
+
+/* Demo 6: Arrange a navigation list. */
+.demo-six {
+  
+}
+
+/* ======================================
+   ON YOUR OWN: 
+   Try to figure out how to do these challenges
+   ====================================== */
+
+.challenge-one {
+  
+}
+
+.challenge-two {
+  
+}
+
+.challenge-three {
+  
+}
+
+.challenge-four {
+  
+}
+
+
+
+
+/* ======================================
+   PROVIDED APPEARANCE STYLES — DO NOT EDIT BELOW HERE
+   ====================================== */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    color: black;
+    background-color: #e6eaed;
+    padding: 1rem;
+}
+
+header, main {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1rem;
+}
+
+header {
+    border-bottom: 4px solid #aac3d4;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    /* margin-bottom: 1rem; */
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.demo-section, .challenge-intro, .intro, .reflection {
+    border: 2px solid #c4ccd2;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.challenge-intro {
+    background-color: #e4edfa;
+}
+
+.practice-area, .challenge-surface {
+    background-color: #f0f3f5;
+    border: 2px dashed #71879a;
+    padding: 0.75rem;
+    margin-top: 1rem;
+}
+
+.practice-area {
+    min-height: 100px;
+}
+
+.flex-item {
+    background-color: lightsteelblue;
+    border: 2px solid steelblue;
+    padding: 1rem 2rem;
+    width: 100px;
+    text-align: center;
+}
+
+.demo-section div div {
+  display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+/* Extra height makes vertical alignment easier to see. */
+.demo-four {
+    height: 180px;
+}
+
+/* A narrow container makes wrapping easier to see. */
+.demo-five {
+    max-width: 460px;
+}
+
+
+.demo-navigation, .challenge-nav {
+    background-color: #e2eaf0;
+    border: 2px solid #879eaf;
+    padding: 0.5rem;
+}
+
+.demo-navigation ul, .challenge-nav ul {
+    list-style-type: none;
+}
+
+.demo-navigation a, .challenge-nav a {
+    display: block;
+    background-color: #c9dced;
+    padding: 1rem 2rem;
+    color: #222;
+    text-decoration: none;
+    border: 2px solid #71879a;
+    border-radius: 7px;
+}
+
+.note {
+    font-size: 0.9rem;
+}
+
+.target {
+    display: block;
+    max-width: 650px;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #aaa;
+}
+
+.challenge-nav ul {
+    min-height: 82px;
+}
+
+.challenge-two {
+    height: 200px;
+}
+
+.message {
+    background-color: #ccebd2;
+    border: 2px solid #70a07a;
+    padding: 0.5rem 1rem;
+    width: 120px;
+    text-align: center;
+}
+
+.challenge-two div {
+  border-radius: 7px;
+}
+
+.challenge-three {
+    max-width: 425px;
+    min-height: 110px;
+}
+
+.challenge-section img.png {
+  max-width: 400px;
+}
+
+.challenge-three button {
+    padding: 1rem 2rem;
+    background-color: #c9dced;
+    border: 2px solid #718fa8;
+    border-radius: 7px;
+}
+
+.challenge-four {
+    height: 250px;
+}
+
+.label-box {
+    background-color: #c9dced;
+    border: 2px solid #718fa8;
+    width: 110px;
+    padding: 5px 12px;
+    text-align: center;
+}
+
+hr {
+  margin: 3rem;
+  border-color:darkgray
+}
